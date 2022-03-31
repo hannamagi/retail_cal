@@ -27,3 +27,7 @@ if kauba_kogus >= 1000 and kauba_kogus < 5000:
     discounted_hind =  kauba_kogus - (kauba_kogus * 0.03)
     taxed_hind = (discounted_hind * float(asukoht) + discounted_hind)
     print("Kogusumma koos soodustuse ja maksudega" ,taxed_hind, "$")
+
+if kauba_kogus >= 5000 and kauba_kogus < 7000:
+    discounted_hind1 =  (kauba_kogus - (kauba_kogus * 0.05)) - 100
+    taxed_hind1 = (discounted_hind1 * float(asukoht) + discounted_hind1)
