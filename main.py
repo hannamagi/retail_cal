@@ -18,3 +18,7 @@ elif asukoht == "CA":
 
 esialgne_kauba_hind = kauba_kogus
 print( "kauba algind on",esialgne_kauba_hind, "$",)
+
+if kauba_kogus < 1000:
+    taxed_hind5 = kauba_kogus + (kauba_kogus * float(asukoht))
+    print("Kogusumma maksudega" ,taxed_hind5, "$")
