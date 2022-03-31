@@ -15,5 +15,6 @@ elif asukoht == "AL":
 elif asukoht == "CA":
     asukoht = 0.0825
 
+
 esialgne_kauba_hind = kauba_kogus
 print( "kauba algind on",esialgne_kauba_hind, "$",)
